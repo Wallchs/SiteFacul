@@ -1,0 +1,15 @@
+.receita {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100vh;
+  height: 45vh;
+  margin: 0;
+}
+
+.receitaConteudo {
+  background-color: #ead28c;
+  text-align: left;
+  margin-left: 13px;
+  padding: 15px;
+}
