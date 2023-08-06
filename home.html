@@ -4,26 +4,41 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="formato.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <title>Home</title>
   </head>
 
   <body>
-    <main class="site">
-      <nav class="menu">MENU</nav>
-      <div class="conteudo">
+    <main class="site container-fluid">
+      <header class="menu">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <div class="container-fluid">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="./home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./receitas.html">Receitas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./cadastro.html">Cadastro</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="justify-content-center conteudo">
         <img src="logo.png" alt="logo" class="img" />
         <strong>Receitas da Tia Jurema</strong>
         <p>Bem-vindo(a) ao site da Tia Jurema.</p>
         <p>Conheça deliciosas receitas para o dia a dia.</p>
         <br />
       </div>
-
-      <br />
-      <br />
-      <br />
-      <?php echo "Bem vindo"; ?>
-
       <footer class="rodape"><p>&copy; Jurema 2023</p></footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
       <!--bootstrap inclusão-->
     </main>
   </body>
